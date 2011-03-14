@@ -1286,6 +1286,7 @@ main(int argc, char *argv[]) {
   int argMaxDeflate = 0;
   int argPopulationSize = 19;
 #ifndef _MSC_VER
+  typedef sig_t sighandler_t;
   sighandler_t old_handler;
 #endif
 
